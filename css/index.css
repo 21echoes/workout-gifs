@@ -1,0 +1,127 @@
+/* all colors from Chris Kempson's Base 16 project, Eighties variant
+ * http://chriskempson.github.io/base16/#eighties
+ */
+
+html {
+  min-height: 100%;
+}
+
+body, button, input {
+  font-size: 14px;
+}
+
+body {
+  min-width: 292px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1em;
+  height: 100%;
+  background: linear-gradient(315deg, #FF512F, #DD2476);
+
+  /* f2f0ec */
+
+  line-height: 1.4;
+  text-align: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 200;
+}
+
+h1, h2 {
+  font-family: 'Dosis';
+  font-weight: 200;
+}
+
+p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#hero-container {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+#hero-content {
+  display: inline-block;
+  padding: 4rem;
+  border: 2px solid white;
+}
+
+button {
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+
+  /* 6699cc
+  border: none;
+  border-radius: 0.5em;
+  color: #f2f0ec */
+
+  /*box-shadow: 0 0.2em rgba(45, 45, 45, 0.1);*/
+}
+
+button:hover {
+  box-shadow: 0 0.25em rgba(45, 45, 45, 0.1);
+  transform: translateY(-0.1em);
+  transition: all 0.2s;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0.1em);
+  transition: all 0.01s;
+}
+
+#title-bar, #playing-caption, img#playing-gif {
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+#timer {
+  float: right;
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+#group-title {
+  float: left;
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+img#playing-gif {
+  border:10px solid #ffffff;
+  box-sizing: border-box;
+}
+
+#playing-attribution {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  padding-bottom: 2em;
+  margin-right: 10%;
+  text-align: right;
+  font-size: .7em;
+}
+
+#playing-reps {
+  font-size: 2em;
+}
+
+#playing-caption {
+  width: 80%;
+  text-align: justify;
+  margin: 0.5em auto 2em;
+}
+
+#attrib-link {
+  color: white;
+  text-decoration: none;
+}
