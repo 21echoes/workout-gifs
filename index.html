@@ -13,49 +13,59 @@
   </head>
 
   <body>
-    <div id="landing">
-      <div id="hero-container">
-        <div id="hero-content">
-          <h1>Karlie Kloss Workout</h1>
-          <h2>in GIFs</h2>
+      <div id="menu">
+          <div id="app-welcome">
+              Welcome to your workout!
+          </div>
+          <ul id="routine-options">
+          </ul>
+      </div>
+
+      <div id="routine" style="display: none">
+        <div id="landing">
+          <div id="hero-container">
+            <div id="hero-content">
+              <h1>Karlie Kloss Workout</h1>
+              <h2>in GIFs</h2>
+            </div>
+            <p>Make sure you have 2 weights or waterbottles, a towel, and a mat before starting. Have fun! </p>
+          </div>
+          <button id="start">start</button>
         </div>
-        <p>Make sure you have 2 weights or waterbottles, a towel, and a mat before starting. Have fun! </p>
-      </div>
-      <button id="start">start</button>
-    </div>
 
-    <div id="playback" style="display: none">
-      <div id="title-bar">
-        <div id="group-title"></div>
-        <div id="timer"></div>
-      </div>
+        <div id="playback" style="display: none">
+          <div id="title-bar">
+            <div id="group-title"></div>
+            <div id="timer"></div>
+          </div>
 
-      <div id="gif">
-        <img id="playing-gif" />
-        <div id="playing-attribution">
-          <em><a id="attrib-link">vogue.com</a></em>
+          <div id="gif">
+            <img id="playing-gif" />
+            <div id="playing-attribution">
+              <em><a id="attrib-link">vogue.com</a></em>
+            </div>
+            <div id="playing-reps"></div>
+          </div>
+
+          <div id="playing-caption"></div>
+
+          <div id="controls">
+            <button id="back">back</button>
+            <button id="play-pause">play/pause</button>
+            <!-- <button id="stop">stop</button> -->
+            <button id="forward">forward</button>
+          </div>
         </div>
-        <div id="playing-reps"></div>
-      </div>
 
-      <div id="playing-caption"></div>
-
-      <div id="controls">
-        <button id="back">back</button>
-        <button id="play-pause">play/pause</button>
-        <!-- <button id="stop">stop</button> -->
-        <button id="forward">forward</button>
-      </div>
-    </div>
-
-    <div id="ending" style="display: none">
-      <div id="hero-container">
-        <div id="hero-content">
-          <h1>You did it!</h1>
-          <h2>See you tomorrow!</h2>
+        <div id="ending" style="display: none">
+          <div id="hero-container">
+            <div id="hero-content">
+              <h1>You did it!</h1>
+              <h2>See you tomorrow!</h2>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
     <script data-main="js/index" src="js/lib/require.js"></script>
   </body>
