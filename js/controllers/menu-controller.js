@@ -34,7 +34,8 @@ define(function() {
             },
 
             onClickMenuItem: function(event) {
-                var index = parseInt(event.originalTarget.getAttribute('data-index'), 10);
+                var target = event.target || event.srcElement || event.originalTarget;
+                var index = parseInt(target.getAttribute('data-index'), 10);
                 menuState.setSelectedItem(index);
             },
 
