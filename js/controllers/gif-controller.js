@@ -37,6 +37,12 @@ define(function() {
                 if (rerender) {
                     videoElem.src = videoSrc;
                 }
+                var isPaused = playbackState.isPaused();
+                if (videoElem.paused && !isPaused) {
+                    videoElem.play();
+                } else if (!videoElem.paused && isPaused) {
+                    videoElem.pause();
+                }
               } else {
                 videoElem.style.display = 'none';
                 imgElem.style.display = 'block';
