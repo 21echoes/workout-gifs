@@ -127,6 +127,15 @@ img#playing-gif, video#playing-video {
     padding: 0;
 }
 
+#routine-options li {
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+#routine-options li:first-child, #routine-options li:last-child {
+    margin: 0 0;
+}
+
 #attrib-link {
   color: white;
   text-decoration: none;
