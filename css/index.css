@@ -40,12 +40,12 @@ p {
   text-align: center;
 }
 
-#hero-container {
+.hero-container {
   margin-top: 10rem;
   margin-bottom: 2.5rem;
 }
 
-#hero-content {
+.box-container {
   display: inline-block;
   padding: 4rem;
   border: 2px solid white;
@@ -79,7 +79,7 @@ button:active {
   transition: all 0.01s;
 }
 
-#title-bar, #playing-caption, img#playing-gif {
+#title-bar, #playing-caption, img#playing-gif, video#playing-video {
     width: 80%;
     margin: 0.5em auto;
 }
@@ -98,7 +98,7 @@ button:active {
   letter-spacing: 0.1em;
 }
 
-img#playing-gif {
+img#playing-gif, video#playing-video {
   border:10px solid #ffffff;
   box-sizing: border-box;
 }
@@ -119,6 +119,12 @@ img#playing-gif {
   width: 80%;
   text-align: justify;
   margin: 0.5em auto 2em;
+}
+
+#routine-options {
+    list-style: none;
+    text-align: center;
+    padding: 0;
 }
 
 #attrib-link {

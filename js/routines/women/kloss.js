@@ -234,6 +234,7 @@ define(function() {
     ];
 
     return {
+        title: "Karlie Kloss Workout",
         exercises: exercises,
         playlist: playlist
     };
